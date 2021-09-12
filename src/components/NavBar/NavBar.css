@@ -1,0 +1,13 @@
+
+#navbarSupportedContent{
+    justify-content: space-between;
+}
+
+.form-inline{ 
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-search{
+    margin-left: 5px;
+}
