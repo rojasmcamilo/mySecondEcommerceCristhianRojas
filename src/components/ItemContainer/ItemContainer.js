@@ -1,4 +1,5 @@
 import './ItemContainer.css';
+import ItemCount from '../ItemCount/ItemCount';
 import Prueba from '../../image/logo/Azuleno.png'
 
 function ItemContainer (props) {
@@ -9,6 +10,7 @@ function ItemContainer (props) {
             <h3>{title}</h3>
             <p> {description} </p>
             <p> {price} </p>
+            <ItemCount />
         </div>
     );
 }
