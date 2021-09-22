@@ -1,0 +1,23 @@
+Codigo de Buscar - Queda pendiente para implementar en el futuro 
+
+
+<form className="form-inline my-2 my-lg-0 ">
+              <input className="form-control mr-sm-2 " type="search" placeholder="Buscar" aria-label="Search" />
+              <button className="btn btn-outline-light my-2 my-sm-0 btn-search" type="submit">Buscar</button>
+            </form>
+
+
+Codigo para nuevo componente:
+
+import './x.css';
+
+function x () {
+    return (
+        <div>
+            
+        </div>
+    );
+}
+
+export default x;
+            

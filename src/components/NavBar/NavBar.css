@@ -1,6 +1,6 @@
 
 #navbarSupportedContent{
-    justify-content: space-between;
+    justify-content: right;
 }
 
 .form-inline{ 
@@ -10,4 +10,8 @@
 
 .btn-search{
     margin-left: 5px;
+}
+
+.navbar {
+    box-shadow: 0px 2px 5px grey;
 }

@@ -1,0 +1,10 @@
+div .icon-cart {
+    color: grey;
+    font-size: 25px;
+   
+}
+
+div .icon-cart :hover {
+    color: black;
+    opacity: 0.9;
+}
