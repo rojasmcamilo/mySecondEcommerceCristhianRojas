@@ -24,13 +24,13 @@ function ItemCount () {
     return (
         <div>
                
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <button class="input-group-text" id="basic-addon1" onClick={decNum}>-</button>
+                <div className="input-group mb-3">
+                    <div className="input-group-prepend">
+                        <button className="input-group-text" id="basic-addon1" onClick={decNum}>-</button>
                     </div>
-                    <input type="number" class="form-control contador" value={num} min="1" max="20" aria-label="Username" aria-describedby="basic-addon1" />
-                    <div class="input-group-append">
-                        <button class="input-group-text" id="basic-addon1" onClick={incNum}>+</button>
+                    <input type="number" className="form-control contador" value={num} min="1" max="20" aria-label="Username" aria-describedby="basic-addon1" />
+                    <div className="input-group-append">
+                        <button className="input-group-text" id="basic-addon1" onClick={incNum}>+</button>
                     </div>
                 </div>
 
