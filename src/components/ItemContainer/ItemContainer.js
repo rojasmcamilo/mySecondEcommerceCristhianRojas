@@ -13,6 +13,7 @@ function ItemContainer (props) {
             <p> {description} </p>
             <p> {price} </p>
             <ItemCount />
+            <button className="btn btn-outline-primary" >Agregar al carrito</button>
         </div>
     );
 }
